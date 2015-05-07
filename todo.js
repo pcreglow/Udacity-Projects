@@ -30,3 +30,5 @@ expect(taskList.length).to.equal(1);
 addTaskToList("Take out the trash", taskList)
 // expectt what now?
 console.log(taskList[0]);
+
+// testing git add, commit and push
