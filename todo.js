@@ -27,8 +27,24 @@ expect(taskList[0]).to.equal("Remember the milk");
 expect(taskList.length).to.equal(1);
 
 // expect what?
-addTaskToList("Take out the trash", taskList)
+expect(taskList.length).to.equal(1);
+addTaskToList("Take out the trash", taskList);
+expect(taskList[1]).to.equal("Take out the trash");
+expect(taskList.length).to.equal(2);
+
+expect(taskList.length).to.equal(2);
+addTaskToList("Clean the bathroom", taskList);
+expect(taskList[2]).to.equal("Clean the bathroom");
+expect(taskList.length).to.equal(3);
+
+expect(taskList.length).to.equal(3);
+addTaskToList("Feed the dog", taskList);
+expect(taskList[3]).to.equal("Feed the dog");
+expect(taskList.length).to.equal(4);
 // expectt what now?
 console.log(taskList[0]);
+console.log(taskList[1]);
+console.log(taskList[2]);
+console.log(taskList[3]);
 
 // testing git add, commit and push
