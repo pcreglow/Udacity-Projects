@@ -41,10 +41,17 @@ expect(taskList.length).to.equal(3);
 addTaskToList("Feed the dog", taskList);
 expect(taskList[3]).to.equal("Feed the dog");
 expect(taskList.length).to.equal(4);
+
+expect(taskList.length).to.equal(4);
+addTaskToList("Get the mail", taskList);
+expect(taskList[4]).to.equal("Get the mail");
+expect(taskList.length).to.equal(5);
+
 // expectt what now?
 console.log(taskList[0]);
 console.log(taskList[1]);
 console.log(taskList[2]);
 console.log(taskList[3]);
+console.log(taskList[4]);
 
 // testing git add, commit and push
