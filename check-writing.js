@@ -17,6 +17,9 @@ function toEnglish(number){
   if (number === 1){
     return "one";
   }
+  if (number === 2){
+    return "two";
+  }
 
 }
     // ????
@@ -25,3 +28,4 @@ function toEnglish(number){
 // Test comes here....
 expect(toEnglish).to.exist;
 expect(toEnglish(1)).to.equal("one");
+expect(toEnglish(2)).to.equal("two");
