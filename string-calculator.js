@@ -49,15 +49,18 @@ expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
 expect(toEnglish("ten")).to.equal(10);
 
-//function plus(A, B){
-  //return toEnglish(A) + toEnglish(B);
-//}
+function plus(A, B){
+  return toEnglish(A) + toEnglish(B);
+}
 
-function plus(x,y){
-  var x = toEnglish(x);
-  var y = toEnglish(y);
-  return x + y;
+/*function plus(x,y){
+    var x = toEnglish(x);
+    var y = toEnglish(y);
+    return x + y;
+}*/
 
+function divide(A, B){
+  return toEnglish(A) / toEnglish(B);
 }
 
 expect(plus).to.exist;
@@ -143,5 +146,8 @@ expect(plus("six", "nine")).to.equal(15);
 
 
 
+expect(divide).to.exist;
+expect(divide("zero", "NaN")).to.equal(NaN);
+expect(divide("two", "one")).to.equal(2);
 
-console.log(plus("one", "one"));
+console.log(divide("zero", "zero"));
