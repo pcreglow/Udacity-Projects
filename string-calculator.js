@@ -117,10 +117,10 @@ expect(plus("five", "one")).to.equal(6);
 expect(plus("five", "two")).to.equal(7);
 expect(plus("five", "three")).to.equal(8);
 expect(plus("five", "four")).to.equal(9);
-expect(plus("five", "five")).to.eqaul(10);
-expect(plus("five", "six")).to.eqaul(11);
-expect(plus("five", "seven")).to.eqaul(12);
-expect(plus("five", "eight")).to.eqaul(13);
-expect(plus("five", "nine")).to.eqaul(14);
+expect(plus("five", "five")).to.equal(10);
+expect(plus("five", "six")).to.equal(11);
+expect(plus("five", "seven")).to.equal(12);
+expect(plus("five", "eight")).to.equal(13);
+expect(plus("five", "nine")).to.equal(14);
 
 console.log(plus("one", "one"));
