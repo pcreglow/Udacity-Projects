@@ -93,7 +93,7 @@ expect(plus("two", "nine")).to.equal(11);
 expect(plus("three", "zero")).to.equal(3);
 expect(plus("three", "one")).to.equal(4);
 expect(plus("three", "two")).to.equal(5);
-expect(plus("three", "three")).toequal(6);
+expect(plus("three", "three")).to.equal(6);
 expect(plus("three", "four")).to.equal(7);
 expect(plus("three", "five")).to.equal(8);
 expect(plus("three", "six")).to.equal(9);
@@ -102,5 +102,25 @@ expect(plus("three", "eight")).to.equal(11);
 expect(plus("three", "nine")).to.equal(12);
 
 expect(plus("four","zero")).to.equal(4);
+expect(plus("four", "one")).to.equal(5);
+expect(plus("four", "two")).to.equal(6);
+expect(plus("four", "three")).to.equal(7);
+expect(plus("four", "four")).to.equal(8);
+expect(plus("four", "five")).to.equal(9);
+expect(plus("four", "six")).to.equal(10);
+expect(plus("four", "seven")).to.equal(11);
+expect(plus("four", "eight")).to.equal(12);
+expect(plus("four", "nine")).to.equal(13);
+
+expect(plus("five", "zero")).to.equal(5);
+expect(plus("five", "one")).to.equal(6);
+expect(plus("five", "two")).to.equal(7);
+expect(plus("five", "three")).to.equal(8);
+expect(plus("five", "four")).to.equal(9);
+expect(plus("five", "five")).to.eqaul(10);
+expect(plus("five", "six")).to.eqaul(11);
+expect(plus("five", "seven")).to.eqaul(12);
+expect(plus("five", "eight")).to.eqaul(13);
+expect(plus("five", "nine")).to.eqaul(14);
 
 console.log(plus("one", "one"));
