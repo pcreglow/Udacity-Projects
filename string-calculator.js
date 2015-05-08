@@ -49,11 +49,15 @@ expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
 expect(toEnglish("ten")).to.equal(10);
 
-function add(A, B){
-
+function plus(A, B){
+  return toEnglish(A) + toEnglish(B);
 }
 
 expect(plus).to.exist;
 expect(plus("zero", "zero")).to.equal(0);
 expect(plus("zero", "one")).to.equal(1);
 expect(plus("zero", "two")).to.equal(2);
+
+console.log(plus("zero", "zero"));
+console.log(plus("zero", "one"));
+console.log(plus("zero", "two"));
