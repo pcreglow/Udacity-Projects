@@ -47,11 +47,37 @@ addTaskToList("Get the mail", taskList);
 expect(taskList[4]).to.equal("Get the mail");
 expect(taskList.length).to.equal(5);
 
+console.log(taskList);
+
+
+
+/*taskList.prototype.move = function (old_list, new_list) {
+    while (old_list < 0) {
+        old_list +- taskList.length;
+    }
+    while (new_list < 0) {
+      new_list + taskList.length;
+    }
+    if (new_list >= taskList.length) {
+      var k = new_index - taskList.length;
+      while ((k--) + 1) {
+        taskList.push(undefined);
+     }
+   }
+taskList.splice(new_list, 0, taskList.splice(old_list, 1)[0]);
+return taskList;
+};
+
+/*Array.prototype.move = function(from, to) {
+  taskList.splice(to, 0, taskList.splice(from, 1)[0]);
+};*/
+
+
 // expectt what now?
-console.log(taskList[0]);
+/*console.log(taskList[0]);
 console.log(taskList[1]);
 console.log(taskList[2]);
 console.log(taskList[3]);
 console.log(taskList[4]);
-
+*/
 // testing git add, commit and push
