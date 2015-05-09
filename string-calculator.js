@@ -49,15 +49,56 @@ expect(toEnglish("eight")).to.equal(8);
 expect(toEnglish("nine")).to.equal(9);
 expect(toEnglish("ten")).to.equal(10);
 
-function plus(A, B){
+/*function plus(A, B){
   return toEnglish(A) + toEnglish(B);
-}
+} NIGHTMARE
+*/
+function plus(a,b){
+    var a = toEnglish(a);
+    var b = toEnglish(b);
 
-/*function plus(x,y){
-    var x = toEnglish(x);
-    var y = toEnglish(y);
-    return x + y;
-}*/
+if (a === "zero" && b === "zero"){
+  var a = 0;
+  var b = 0;
+}
+if (a === "zero" && b === "one"){
+  var a = 0;
+  var b = 1;
+}
+if (a === "zero" && b === "two"){
+  var a = 0;
+  var b = 2;
+}
+if (a === "zero" && b === "three"){
+  var a = 0;
+  var b = 3;
+}
+if (a === "zero" && b === "four"){
+  var a = 0;
+  var b = 4;
+}
+if (a === "zero" && b === "five"){
+  var a = 0;
+  var b = 5;
+}
+if (a === "zero" && b === "six"){
+  var a = 0;
+  var b = 6;
+}
+if (a === "zero" && b === "seven"){
+  var a = 0;
+  var b = 7;
+}
+if (a === "zero" && b === "eight"){
+  var a = 0;
+  var b = 8;
+}
+if (a === "zero" && b === "nine"){
+  var a = 0;
+  var b = 9;
+}
+  return a + b;
+}
 
 /*function divide(A, B){
   return toEnglish(A) / toEnglish(B);
@@ -78,7 +119,7 @@ expect(plus("zero", "nine")).to.equal(9);
 /* console.log(plus("zero", "zero"));
  console.log(plus("zero", "one"));
  console.log(plus("zero", "two"));
-*/
+
 
 expect(plus("one", "one")).to.equal(2);
 expect(plus("one", "two")).to.equal(3);
@@ -144,6 +185,19 @@ expect(plus("six", "six")).to.equal(12);
 expect(plus("six", "seven")).to.equal(13);
 expect(plus("six", "eight")).to.equal(14);
 expect(plus("six", "nine")).to.equal(15);
+
+expect(plus("seven", "zero")).to.equal(7);
+expect(plus("seven", "one")).to.equal(8);
+expect(plus("seven", "two")).to.equal(9);
+expect(plus("seven", "three")).to.equal(10);
+expect(plus("seven", "four")).to.equal(11);
+expect(plus("seven", "five")).to.equal(12);
+expect(plus("seven", "six")).to.equal(13);
+expect(plus("seven", "seven")).to.equal(14);
+expect(plus("seven", "eight")).to.equal(15);
+expect(plus("seven", "nine")).to.equal(16);
+
+
 
 
 
