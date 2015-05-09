@@ -189,7 +189,7 @@ function plus(a,b){
     var a = 3;
     var b = 3;
   }
-  if ( a === "thre" && b === "four"){
+  if ( a === "three" && b === "four"){
     var a = 3;
     var b = 4;
   }
@@ -205,11 +205,11 @@ function plus(a,b){
     var a = 3;
     var b = 7;
   }
-  if ( a = "three" && b === "eight"){
+  if ( a === "three" && b === "eight"){
     var a = 3;
     var b = 8;
   }
-  if ( a = "three" && b === "nine"){
+  if ( a === "three" && b === "nine"){
     var a = 3;
     var b = 9;
   }
