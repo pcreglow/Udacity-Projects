@@ -135,7 +135,7 @@ function plus(a,b){
   }
   if (a === "two" && b === "zero"){
     var a = 2;
-    car b = 0;
+    var b = 0;
   }
   if (a === "two" && b === "one"){
     var a = 2;
@@ -161,7 +161,58 @@ function plus(a,b){
     var a = 2;
     var b = 6;
   }
-  if (a === "two" && b === "seven")
+  if (a === "two" && b === "seven"){
+    var a = 2;
+    var b = 7;
+  }
+  if (a === "two" && b === "eight"){
+    var a = 2;
+    var b = 8;
+  }
+  if (a === "two" && b === "nine"){
+    var a = 2;
+    var b = 9;
+  }
+  if ( a === "three" && b === "zero"){
+    var a = 3;
+    var b = 0;
+  }
+  if ( a === "three" && b === "one"){
+    var a = 3;
+    var b = 1;
+  }
+  if ( a === "three" && b === "two"){
+    var a = 3;
+    var b = 2;
+  }
+  if ( a === "three" && b === "three"){
+    var a = 3;
+    var b = 3;
+  }
+  if ( a === "thre" && b === "four"){
+    var a = 3;
+    var b = 4;
+  }
+  if ( a === "three" && b === "five"){
+    var a = 3;
+    var b = 5;
+  }
+  if ( a === "three" && b === "six"){
+    var a = 3;
+    var b = 6;
+  }
+  if ( a === "three" && b === "seven"){
+    var a = 3;
+    var b = 7;
+  }
+  if ( a = "three" && b === "eight"){
+    var a = 3;
+    var b = 8;
+  }
+  if ( a = "three" && b === "nine"){
+    var a = 3;
+    var b = 9;
+  }
   return a + b;
 }
 
@@ -204,7 +255,7 @@ expect(plus("two", "seven")).to.equal(9);
 expect(plus("two", "eight")).to.equal(10);
 expect(plus("two", "nine")).to.equal(11);
 
-/*expect(plus("three", "zero")).to.equal(3);
+expect(plus("three", "zero")).to.equal(3);
 expect(plus("three", "one")).to.equal(4);
 expect(plus("three", "two")).to.equal(5);
 expect(plus("three", "three")).to.equal(6);
@@ -215,7 +266,7 @@ expect(plus("three", "seven")).to.equal(10);
 expect(plus("three", "eight")).to.equal(11);
 expect(plus("three", "nine")).to.equal(12);
 
-expect(plus("four", "zero")).to.equal(4);
+/*expect(plus("four", "zero")).to.equal(4);
 expect(plus("four", "one")).to.equal(5);
 expect(plus("four", "two")).to.equal(6);
 expect(plus("four", "three")).to.equal(7);
