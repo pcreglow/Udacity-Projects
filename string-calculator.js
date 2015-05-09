@@ -133,7 +133,35 @@ function plus(a,b){
     var a = 1;
     var b = 9;
   }
-  
+  if (a === "two" && b === "zero"){
+    var a = 2;
+    car b = 0;
+  }
+  if (a === "two" && b === "one"){
+    var a = 2;
+    var b = 1;
+  }
+  if (a === "two" && b === "two"){
+    var a = 2;
+    var b = 2;
+  }
+  if (a === "two" && b === "three"){
+    var a = 2;
+    var b = 3;
+  }
+  if (a === "two" && b === "four"){
+    var a = 2;
+    var b = 4;
+  }
+  if ( a === "two" && b === "five"){
+    var a = 2;
+    var b = 5;
+  }
+  if (a === "two" && b === "six"){
+    var a = 2;
+    var b = 6;
+  }
+  if (a === "two" && b === "seven")
   return a + b;
 }
 
@@ -165,7 +193,7 @@ expect(plus("one", "seven")).to.equal(8);
 expect(plus("one", "eight")).to.equal(9);
 expect(plus("one", "nine")).to.equal(10);
 
-/*expect(plus("two", "zero")).to.equal(2);
+expect(plus("two", "zero")).to.equal(2);
 expect(plus("two", "one")).to.equal(3);
 expect(plus("two", "two")).to.equal(4);
 expect(plus("two", "three")).to.equal(5);
@@ -176,7 +204,7 @@ expect(plus("two", "seven")).to.equal(9);
 expect(plus("two", "eight")).to.equal(10);
 expect(plus("two", "nine")).to.equal(11);
 
-expect(plus("three", "zero")).to.equal(3);
+/*expect(plus("three", "zero")).to.equal(3);
 expect(plus("three", "one")).to.equal(4);
 expect(plus("three", "two")).to.equal(5);
 expect(plus("three", "three")).to.equal(6);
