@@ -6,14 +6,12 @@ var expect = require('chai').expect;
 // I can list my tasks...
 var taskList = [ ];
 
-
-
+// I can list my tasks...
 function listTasks() {
 
 }
 
 // I can add a task to my list
-
 function addTaskToList(task, list){
   // what is the task? @param task
   // where is the task going? @param list
@@ -47,7 +45,7 @@ addTaskToList("Get the mail", taskList);
 expect(taskList[4]).to.equal("Get the mail");
 expect(taskList.length).to.equal(5);
 
-console.log(taskList);
+// console.log(taskList);
 
 
 
