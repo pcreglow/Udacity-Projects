@@ -1,6 +1,6 @@
 var expect = require('chai').expect;
 
-function toEnglish(word){
+function toNumber(word){
   if ( word === "zero" ){
       return 0;
   }
@@ -37,21 +37,21 @@ function toEnglish(word){
   }
 }
 
-expect(toEnglish("zero")).to.equal(0);
-expect(toEnglish("one")).to.equal(1);
-expect(toEnglish("two")).to.equal(2);
-expect(toEnglish("three")).to.equal(3);
-expect(toEnglish("four")).to.equal(4);
-expect(toEnglish("five")).to.equal(5);
-expect(toEnglish("six")).to.equal(6);
-expect(toEnglish("seven")).to.equal(7);
-expect(toEnglish("eight")).to.equal(8);
-expect(toEnglish("nine")).to.equal(9);
-expect(toEnglish("ten")).to.equal(10);
+expect(toNumber("zero")).to.equal(0);
+expect(toNumber("one")).to.equal(1);
+expect(toNumber("two")).to.equal(2);
+expect(toNumber("three")).to.equal(3);
+expect(toNumber("four")).to.equal(4);
+expect(toNumber("five")).to.equal(5);
+expect(toNumber("six")).to.equal(6);
+expect(toNumber("seven")).to.equal(7);
+expect(toNumber("eight")).to.equal(8);
+expect(toNumber("nine")).to.equal(9);
+expect(toNumber("ten")).to.equal(10);
 
 function plus(a,b){
-    var a = toEnglish(a);
-    var b = toEnglish(b);
+    var a = toNumber(a);
+    var b = toNumber(b);
 
   if (a === "zero" && b === "zero"){
     var a = 0;
@@ -373,86 +373,86 @@ function plus(a,b){
     var a = 7;
     var b = 9;
   }
-if (a === "eight" && b === "zero"){
-  var a = 8;
-  var b = 0;
-}
-if (a === "eight" && b === "one"){
-  var a = 8;
-  var b = 1;
-}
-if (a === "eight" && b === "two"){
-  var a = 8;
-  var b = 2;
-}
-if (a === "eight" && b === "three"){
-  var a = 8;
-  var b = 3;
-}
-if (a === "eight" && b === "four"){
-  var a = 8;
-  var b = 4;
-}
-if (a === "eight" && b === "five"){
-  var a = 8;
-  var b = 5;
-}
-if (a === "eight" && b === "six"){
-  var a = 8;
-  var b = 6;
-}
-if (a === "eight" && b === "seven"){
-  var a = 8;
-  var b = 7;
-}
-if (a === "eight" && b === "eight"){
-  var a = 8;
-  var b = 8;
-}
-if (a === "eight" && b === "nine"){
-  var a = 8;
-  var b = 9;
-}
-if (a === "nine" && b === "zero"){
-  var a = 9;
-  var b = 0;
-}
-if (a === "nine" && b === "one"){
-  var a = 9;
-  var b = 1;
-}
-if (a === "nine" && b === "two"){
-  var a = 9;
-  var b = 2;
-}
-if (a === "nine" && b === "three"){
-  var a = 9;
-  var b = 3;
-}
-if (a === "nine" && b === "four"){
-  var a = 9;
-  var b = 4;
-}
-if (a === "nine" && b === "five"){
-  var a = 9;
-  var b = 5;
-}
-if (a === "nine" && b === "six"){
-  var a = 9;
-  var b = 6;
-}
-if (a === "nine" && b === "seven"){
-  var a = 9;
-  var b = 7;
-}
-if (a === "nine" && b === "eight"){
-  var a = 8;
-  var b = 8;
-}
-if (a === "nine" && b === "nine"){
-  var a = 8;
-  var b = 9;
-}
+  if (a === "eight" && b === "zero"){
+    var a = 8;
+    var b = 0;
+  }
+  if (a === "eight" && b === "one"){
+    var a = 8;
+    var b = 1;
+  }
+  if (a === "eight" && b === "two"){
+    var a = 8;
+    var b = 2;
+  }
+  if (a === "eight" && b === "three"){
+    var a = 8;
+    var b = 3;
+  }
+  if (a === "eight" && b === "four"){
+    var a = 8;
+    var b = 4;
+  }
+  if (a === "eight" && b === "five"){
+    var a = 8;
+    var b = 5;
+  }
+  if (a === "eight" && b === "six"){
+    var a = 8;
+    var b = 6;
+  }
+  if (a === "eight" && b === "seven"){
+    var a = 8;
+    var b = 7;
+  }
+  if (a === "eight" && b === "eight"){
+    var a = 8;
+    var b = 8;
+  }
+  if (a === "eight" && b === "nine"){
+    var a = 8;
+    var b = 9;
+  }
+  if (a === "nine" && b === "zero"){
+    var a = 9;
+    var b = 0;
+  }
+  if (a === "nine" && b === "one"){
+    var a = 9;
+    var b = 1;
+  }
+  if (a === "nine" && b === "two"){
+    var a = 9;
+    var b = 2;
+  }
+  if (a === "nine" && b === "three"){
+    var a = 9;
+    var b = 3;
+  }
+  if (a === "nine" && b === "four"){
+    var a = 9;
+    var b = 4;
+  }
+  if (a === "nine" && b === "five"){
+    var a = 9;
+    var b = 5;
+  }
+  if (a === "nine" && b === "six"){
+    var a = 9;
+    var b = 6;
+  }
+  if (a === "nine" && b === "seven"){
+    var a = 9;
+    var b = 7;
+  }
+  if (a === "nine" && b === "eight"){
+    var a = 9;
+    var b = 8;
+  }
+  if (a === "nine" && b === "nine"){
+    var a = 9;
+    var b = 9;
+  }
   return a + b;
 }
 
@@ -571,6 +571,101 @@ expect(plus("nine", "six")).to.equal(15);
 expect(plus("nine", "seven")).to.equal(16);
 expect(plus("nine", "eight")).to.equal(17);
 expect(plus("nine", "nine")).to.equal(18);
+
+
+function minus(a, b) {
+  var a = toNumber(a);
+  var b = toNumber(b);
+
+  if (a === "zero" && b === "zero"){
+    a = 0;
+    b = 0;
+  }
+  if (a === "zero" && b === "one"){
+    a = 0;
+    b = 1;
+  }
+  if (a === "zero" && b === "two"){
+    a = 0;
+    b = 2;
+  }
+  if (a === "zero" && b === "three"){
+    a = 0;
+    b = 3;
+  }
+  if (a === "one" && b === "zero"){
+    a = 1;
+    b = 0;
+  }
+  if (a === "one" && b === "one"){
+    a = 1;
+    b = 1;
+  }
+  if (a === "one" && b === "two"){
+    a = 1;
+    b = 2;
+  }
+  if (a === "one" && b === "three"){
+    a = 1;
+    b = 3;
+  }
+  if (a ==="two" && b === "zero"){
+    a = 2;
+    b = 0;
+  }
+  if (a === "two" && b === "one"){
+    a = 2;
+    b = 1;
+  }
+  if (a === "two" && b === "two"){
+    a = 2;
+    b = 2;
+  }
+  if (a === "two" && b === "three"){
+    a = 2;
+    b = 3;
+  }
+  if (a === "three" && b === "zero"){
+    a = 3;
+    b = 0;
+  }
+  if (a === "three" && b === "one"){
+    a = 3;
+    b = 1;
+  }
+  if (a === "three" && b === "two"){
+    a = 3;
+    b = 2;
+  }
+  if (a === "three" && b === "three"){
+    a = 3;
+    b = 3;
+  }
+  return a - b;
+}
+
+expect(minus("zero", "zero")).to.equal(0);
+expect(minus("zero", "one")).to.equal(-1);
+expect(minus("zero", "two")).to.equal(-2);
+expect(minus("zero", "three")).to.equal(-3);
+
+expect(minus("one", "zero")).to.equal(1);
+expect(minus("one", "one")).to.equal(0);
+expect(minus("one", "two")).to.equal(-1);
+expect(minus("one", "three")).to.equal(-2);
+
+expect(minus("two", "zero")).to.equal(2);
+expect(minus("two", "one")).to.equal(1);
+expect(minus("two", "two")).to.equal(0);
+expect(minus("two", "three")).to.equal(-1);
+
+expect(minus("three", "zero")).to.equal(3);
+expect(minus("three", "one")).to.equal(2);
+expect(minus("three", "two")).to.equal(1);
+expect(minus("three", "three")).to.equal(0);
+
+
+
 
 /* console.log(plus("zero", "zero"));
  console.log(plus("zero", "one"));
