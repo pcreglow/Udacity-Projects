@@ -293,6 +293,166 @@ function plus(a,b){
     var a = 5;
     var b = 9;
   }
+  if (a === "six" && b === "zero"){
+    var a = 6;
+    var b = 0;
+  }
+  if (a === "six" && b === "one"){
+    var a = 6;
+    var b = 1;
+  }
+  if (a === "six" && b === "two"){
+    var a = 6;
+    var b = 2;
+  }
+  if (a === "six" && b === "three"){
+    var a = 6;
+    var b = 3;
+  }
+  if (a === "six" && b === "four"){
+    var a = 6;
+    var b = 4;
+  }
+  if (a === "six" && b === "five"){
+    var a = 6;
+    var b = 5;
+  }
+  if (a === "six" && b === "six"){
+    var a = 6;
+    var b = 6;
+  }
+  if (a === "six" && b === "seven"){
+    var a = 6;
+    var b = 7;
+  }
+  if (a === "six" && b === "eight"){
+    var a = 6;
+    var b = 8;
+  }
+  if (a === "six" && b === "nine"){
+    var a = 6;
+    var b = 9;
+  }
+  if (a === "seven" && b === "zero"){
+    var a = 7;
+    var b = 0;
+  }
+  if (a === "seven" && b === "one"){
+    var a = 7;
+    var b = 1;
+  }
+  if (a === "seven" && b === "two"){
+    var a = 7;
+    var b = 2;
+  }
+  if (a === "seven" && b === "three"){
+    var a = 7;
+    var b = 3;
+  }
+  if (a === "seven" && b === "four"){
+    var a = 7;
+    var b = 4;
+  }
+  if (a === "seven" && b === "five"){
+    var a = 7;
+    var b = 5;
+  }
+  if (a === "seven" && b === "six"){
+    var a = 7;
+    var b = 6;
+  }
+  if (a === "seven" && b === "seven"){
+    var a = 7;
+    var b = 7;
+  }
+  if (a === "seven" && b === "eight"){
+    var a = 7;
+    var b = 8;
+  }
+  if (a === "seven" && b === "nine"){
+    var a = 7;
+    var b = 9;
+  }
+if (a === "eight" && b === "zero"){
+  var a = 8;
+  var b = 0;
+}
+if (a === "eight" && b === "one"){
+  var a = 8;
+  var b = 1;
+}
+if (a === "eight" && b === "two"){
+  var a = 8;
+  var b = 2;
+}
+if (a === "eight" && b === "three"){
+  var a = 8;
+  var b = 3;
+}
+if (a === "eight" && b === "four"){
+  var a = 8;
+  var b = 4;
+}
+if (a === "eight" && b === "five"){
+  var a = 8;
+  var b = 5;
+}
+if (a === "eight" && b === "six"){
+  var a = 8;
+  var b = 6;
+}
+if (a === "eight" && b === "seven"){
+  var a = 8;
+  var b = 7;
+}
+if (a === "eight" && b === "eight"){
+  var a = 8;
+  var b = 8;
+}
+if (a === "eight" && b === "nine"){
+  var a = 8;
+  var b = 9;
+}
+if (a === "nine" && b === "zero"){
+  var a = 9;
+  var b = 0;
+}
+if (a === "nine" && b === "one"){
+  var a = 9;
+  var b = 1;
+}
+if (a === "nine" && b === "two"){
+  var a = 9;
+  var b = 2;
+}
+if (a === "nine" && b === "three"){
+  var a = 9;
+  var b = 3;
+}
+if (a === "nine" && b === "four"){
+  var a = 9;
+  var b = 4;
+}
+if (a === "nine" && b === "five"){
+  var a = 9;
+  var b = 5;
+}
+if (a === "nine" && b === "six"){
+  var a = 9;
+  var b = 6;
+}
+if (a === "nine" && b === "seven"){
+  var a = 9;
+  var b = 7;
+}
+if (a === "nine" && b === "eight"){
+  var a = 8;
+  var b = 8;
+}
+if (a === "nine" && b === "nine"){
+  var a = 8;
+  var b = 9;
+}
   return a + b;
 }
 
@@ -368,7 +528,7 @@ expect(plus("five", "seven")).to.equal(12);
 expect(plus("five", "eight")).to.equal(13);
 expect(plus("five", "nine")).to.equal(14);
 
-/*expect(plus("six", "zero")).to.equal(6);
+expect(plus("six", "zero")).to.equal(6);
 expect(plus("six", "one")).to.equal(7);
 expect(plus("six", "two")).to.equal(8);
 expect(plus("six", "three")).to.equal(9);
@@ -389,6 +549,28 @@ expect(plus("seven", "six")).to.equal(13);
 expect(plus("seven", "seven")).to.equal(14);
 expect(plus("seven", "eight")).to.equal(15);
 expect(plus("seven", "nine")).to.equal(16);
+
+expect(plus("eight", "zero")).to.equal(8);
+expect(plus("eight", "one")).to.equal(9);
+expect(plus("eight", "two")).to.equal(10);
+expect(plus("eight", "three")).to.equal(11);
+expect(plus("eight", "four")).to.equal(12);
+expect(plus("eight", "five")).to.equal(13);
+expect(plus("eight", "six")).to.equal(14);
+expect(plus("eight", "seven")).to.equal(15);
+expect(plus("eight", "eight")).to.equal(16);
+expect(plus("eight", "nine")).to.equal(17);
+
+expect(plus("nine", "zero")).to.equal(9);
+expect(plus("nine", "one")).to.equal(10);
+expect(plus("nine", "two")).to.equal(11);
+expect(plus("nine", "three")).to.equal(12);
+expect(plus("nine", "four")).to.equal(13);
+expect(plus("nine", "five")).to.equal(14);
+expect(plus("nine", "six")).to.equal(15);
+expect(plus("nine", "seven")).to.equal(16);
+expect(plus("nine", "eight")).to.equal(17);
+expect(plus("nine", "nine")).to.equal(18);
 
 /* console.log(plus("zero", "zero"));
  console.log(plus("zero", "one"));
