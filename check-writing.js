@@ -20,7 +20,36 @@ function toEnglish(number){
   if (number === 2){
     return "two";
   }
-
+  if (number === 3){
+    return "three";
+  }
+  if (number === 4){
+    return "four";
+  }
+  if (number === 5){
+    return "five";
+  }
+  if (number === 6){
+    return "six";
+  }
+  if (number === 7){
+    return "seven";
+  }
+  if (number === 8){
+    return "eight";
+  }
+  if (number === 9){
+    return "nine";
+  }
+  if (number === 10){
+    return "ten";
+  }
+  if (number === 11){
+    return "eleven";
+  }
+  if (number === 12){
+    return "twelve";
+  }
 }
     // ????
 
@@ -29,3 +58,13 @@ function toEnglish(number){
 expect(toEnglish).to.exist;
 expect(toEnglish(1)).to.equal("one");
 expect(toEnglish(2)).to.equal("two");
+expect(toEnglish(3)).to.equal("three");
+expect(toEnglish(4)).to.equal("four");
+expect(toEnglish(5)).to.equal("five");
+expect(toEnglish(6)).to.equal("six");
+expect(toEnglish(7)).to.equal("seven");
+expect(toEnglish(8)).to.equal("eight");
+expect(toEnglish(9)).to.equal("nine");
+expect(toEnglish(10)).to.equal("ten");
+expect(toEnglish(11)).to.equal("eleven");
+expect(toEnglish(12)).to.equal("twelve");
