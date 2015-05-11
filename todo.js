@@ -4,15 +4,16 @@
 var expect = require('chai').expect;
 
 // I can list my tasks...
-var taskList = ["Rember the milk", "Take out the trash",
-                "Clean the bathroom"];
+/*var taskList = ["Rember the milk", "Take out the trash",
+                "Clean the bathroom"]; */
+var taskList = [ ];
 
 // I can list my tasks...
 function listTasks(taskList) {
   return taskList;
 }
 
-console.log(taskList);
+/*console.log(taskList);
 
 var newList = taskList.push("Feed the dog", "Get the mail");
 
@@ -21,6 +22,7 @@ console.log(taskList);
 var removeTask = taskList.pop();
 
 console.log(taskList);
+*/
 
 
 
@@ -33,7 +35,17 @@ function addTaskToList(task, list){
     return list.push(task);
 }
 
-console.log(taskList);
+function removeTaskToList(task, list){
+
+
+    return list.pop(task);
+}
+
+function priorityTaskToList(task, list){
+
+    return list.slice(task, task);
+}
+
 
 expect(taskList.length).to.equal(0);
 addTaskToList("Remember the milk", taskList);
