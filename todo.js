@@ -4,12 +4,26 @@
 var expect = require('chai').expect;
 
 // I can list my tasks...
-var taskList = [ ];
+var taskList = ["Rember the milk", "Take out the trash",
+                "Clean the bathroom"];
 
 // I can list my tasks...
-function listTasks() {
-
+function listTasks(taskList) {
+  return taskList;
 }
+
+console.log(taskList);
+
+var newList = taskList.push("Feed the dog", "Get the mail");
+
+console.log(taskList);
+
+var removeTask = taskList.pop();
+
+console.log(taskList);
+
+
+
 
 // I can add a task to my list
 function addTaskToList(task, list){
@@ -18,6 +32,8 @@ function addTaskToList(task, list){
   // what order / priority? on the bottom
     return list.push(task);
 }
+
+console.log(taskList);
 
 expect(taskList.length).to.equal(0);
 addTaskToList("Remember the milk", taskList);
