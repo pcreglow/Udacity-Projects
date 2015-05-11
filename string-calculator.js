@@ -34,7 +34,8 @@ function toNumber(word){
   }
   if ( word === "ten" ){
     return 10;
-  }
+  }*/
+  return(Number);
 }
 
 expect(toNumber("zero")).to.equal(0);
@@ -644,6 +645,7 @@ function minus(a, b) {
   return a - b;
 }
 
+expect(minus).to.exist;
 expect(minus("zero", "zero")).to.equal(0);
 expect(minus("zero", "one")).to.equal(-1);
 expect(minus("zero", "two")).to.equal(-2);
@@ -704,6 +706,7 @@ function multiply(a, b) {
   return a * b;
 }
 
+expect(multiply).to.exist;
 expect(multiply("zero", "zero")).to.equal(0);
 expect(multiply("zero", "four")).to.equal(0);
 expect(multiply("zero", "five")).to.equal(0);
@@ -734,6 +737,10 @@ function divide(a, b){
     a = 2;
     b = 3;
   }
+  if (a === "three" && b === "eight"){
+     a = 3;
+     b = 8;
+  }
   if (a === "zero" && b === "zero"){
     a = 0;
     b = 0;
@@ -754,8 +761,8 @@ expect(divide("zero", "five")).to.equal(0);
 expect(divide("five", "zero")).to.equal(Infinity);
 expect(divide("five", "five")).to.equal(1);
 expect(divide("two", "three")).to.equal(2 / 3);
-expect(divide("zero", "zero")).to.equal();
-
+expect(divide("three", "eight")).to.equal(3 / 8);
+//expect(divide("zero", "zero")).to.equal();
 
 
 /* console.log(plus("zero", "zero"));
@@ -771,6 +778,15 @@ expect(divide("zero", "zero")).to.equal();
   return toNumber(a) / toNumber(b);
 }*/
 
+/*var numbers = [ "zero", "one", "two"];
+
+var item, index = 0;
+while (index < numbers.length){
+  item = numbers[index];
+  index = index + 1;
+}
+
+for (var index = 0; index < numbers.length; index = index +1)
 
 /*expect(divide).to.exist;
 expect(divide("zero", "NaN")).to.equal(0);
