@@ -1,6 +1,6 @@
 // just a tracer bullet
 // alert("it's alive!");
-
+debugger;
 
 document.head.parentElement.className = "js"; // It's alive!
 
