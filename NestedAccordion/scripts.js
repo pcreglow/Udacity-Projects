@@ -5,6 +5,7 @@
 document.head.parentElement.className = "js"; // It's alive!
 
 var elements = document.querySelectorAll('h3');
+var nestedElements = document.querySelectorAll('h4');
 
 /*elements[0].addEventListener('click', function(){
   elements[0].parentElement.classList.toggle('cbp-ntopen');
@@ -25,4 +26,10 @@ _.forEach(elements, function(element, index, elements){
     console.log(elements, index, element)
     elements[index].parentElement.classList.toggle('cbp-ntopen');
   });
+});
+
+_.forEach(nestedElements, function(element, index, elements){
+    element.addEventListener('click', function(){
+        element.parentElement.classList.toggle('cbp-ntopen');
+    });
 });
