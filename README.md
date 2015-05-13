@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 permalink: index.html
 ---
@@ -22,3 +23,7 @@ It's not just a directory of trivia, it's also a practice problem!
 ## Congrats! Now what?
 
 Your instructor will give you weekly assignments to fill out the information for your cohort based on the `TEMPLATE.md` file. You'll need to `git pull` regularly in a local clone to get the latest commits from your fellow students, and open additional PRs to add your own. Over time, we'll `git` to know one another... :tomato:
+=======
+# TIY-Assignments
+The Iron Yard - Assignments
+>>>>>>> 32ff2f90502688bdfb0197c7aaaea6d828093cc3
